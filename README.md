@@ -58,6 +58,9 @@ Modo multiplayer via Wi-Fi
 
 ## Autores
 Adrian Lauzid Modesto
+
 Artur Vinícius Lima Ramos da Silva
+
 Gustavo dos Santos Silva
+
 Lucas Pereira de Souza
