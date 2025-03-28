@@ -1,0 +1,8 @@
+[wokwi]
+version = 1
+firmware = "laserTag.ino"
+elf = "build/laserTag.ino.elf"
+
+[libraries]
+LiquidCrystal_I2C = "*"
+IRremote = "*"
