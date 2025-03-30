@@ -32,18 +32,25 @@ LEDs (verde, amarelo, vermelho)
 Resistores
 
 ## Lógica do Código
-setup(): Inicializa componentes
+setup(): Inicializa o LCD, receptor IR e LEDs, exibindo a mensagem inicial.
 
-loop(): Escuta comandos IR
+loop(): Escuta comandos do controle remoto IR e verifica o estado do jogo.
 
-shoot(): Dispara e atualiza vida/munição
+shoot(): Executa um disparo, reduzindo a munição e a vida do oponente.
 
-reload(): Recarrega munição
+reload(): Recarrega a munição após um tempo de espera.
 
-updateLCD() e updateLEDs(): Atualizam o feedback visual
+updateLCD() e updateLEDs(): Atualizam o display e os LEDs conforme o estado do jogador.
+
+printOtherPlayerStats(): Exibe no Serial a vida e munição do adversário.
+
+checkGameOver(): Verifica se o jogo acabou e exibe a vitória ou derrota.
+
+resetGame(): Reinicia o jogo após o término de uma rodada.
 
 ## Testes
 Simulado no Wokwi
+https://wokwi.com/projects/426804381928599553
 
 Testes de IR, cooldown, recarga, LEDs e LCD validados
 
@@ -57,7 +64,7 @@ Efeitos sonoros com buzzer
 Modo multiplayer via Wi-Fi
 
 ## Autores
-Adrian Lauzid Modesto
+Adrian Modesto Lauzid
 
 Artur Vinícius Lima Ramos da Silva
 
