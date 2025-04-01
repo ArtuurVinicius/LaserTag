@@ -55,9 +55,7 @@ https://wokwi.com/projects/426804381928599553
 Testes de IR, cooldown, recarga, LEDs e LCD validados
 
 ## Melhorias Futuras
-Suporte a múltiplos jogadores
-
-Sistema de pontuação
+Sistema de pontuação com dashboard
 
 Efeitos sonoros com buzzer
 
