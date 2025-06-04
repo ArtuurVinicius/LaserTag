@@ -1,4 +1,4 @@
-# Sistema de Laser Tag com ESP32
+# Sistema de Laser Tag com ESP8266
 Projeto de um sistema básico de Laser Tag utilizando ESP32, controle remoto IR, LCD 16x2 (I2C) e LEDs indicadores para simular disparos, vida e munição de um jogador.
 
 ## Funcionalidades
