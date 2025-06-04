@@ -29,8 +29,8 @@ const uint32_t BOTAO_SETA_CIMA = 0xFF02FD;
 const uint32_t BOTAO_POWER = 0xFFA25D;
 
 // Wi-Fi e MQTT
-#define WIFI_SSID "Galaxy A03s09d2"
-#define WIFI_PASSWORD "hvfk2375"
+#define WIFI_SSID "WIFI_SSID"
+#define WIFI_PASSWORD "WIFI_PASSWORD"
 
 #define MQTT_HOST IPAddress(192, 168, 66, 163)  // IP da VM
 #define MQTT_PORT 1883
