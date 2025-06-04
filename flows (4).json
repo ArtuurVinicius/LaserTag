@@ -1,0 +1,22 @@
+[
+    {
+        "id": "7a2be0572628c1ad",
+        "type": "function",
+        "z": "209e049a87bcade4",
+        "name": "Tratamento",
+        "func": "\nmsg.payload = Number(msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 200,
+        "wires": [
+            [
+                "ui_chart_node"
+            ]
+        ]
+    }
+]
